@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+           
+    <link rel="shortcut icon" href="favicon.ico"/>           
+    <title>New Shop</title>
+    <style>
+      .preloader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 100;
+      }
+    </style>
+  </head>
+<body>
+  <!--  ==================     LOADER BLOCK   ==============           -->
+ <div class="preloader">
+   <div class="loader"></div>    
+ </div>
+<!--  ==================    END LOADER BLOCK    ==============          --> 
+
+<!--  ==================       START HEADER    ==============           -->   
+   <header class="header-style-1 header">
+   <div class="banner">
+           <img class="resp-img" src="img/banner.jpg" alt="">       
+     </div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-2">
+           <div class="nav-menu-icon menu">
+            <a class="table-cell"><i id="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            </i><span class="myMenu">MENU</span></a>
+            <a class="table-cell menu-close"><img src="img/x.png"></i><span class="myMenu">MENU</span></a> 
+           </div>              
+        </div>
+       <div class="col-md-4 col-sm-4 col-xs-8">
+          <div id="logo">
+             <a href="index.html">
+                <img src="img/logo.png" alt="" class="hlogo-white">
+             </a>
+          </div>
+       </div>
+      <div class="col-md-4 col-sm-4 col-xs-2">
+        <div class="search_wrapper">
+            <a class="search fr"><i class="fa fa-search"></i></a>   
+           </div>        
+        </div>
+        <div class="navigation">
+          <ul class="hr">
+            <li><a href="index.html">STYLE</a>
+            </li>
+            <li><a href="article_fashion.html">TRAVEL</a>
+            </li>
+            <li><a href="article_property.html">HOMES</a> 
+            </li>
+            <li><a href="category.html">CULTURE</a>
+            </li>
+            <li><a href="#" class="dropDown_food">FOOD & DRINK <i class="fa fa-angle-down"></i></a>                            
+              <ul class="dropDown">                  
+                  <li>
+                   <div class="container">
+                     <div class="row">
+                     <div class="empty-lg-20 empty-md-20 empty-sm-10 empty-xs-0"></div> 
+                        <div class="col-md-3">
+                          <div class="left_menu">
+                            <p class="h28"><span class="line">Food</span> & Drink</p>
+                            <ul class="submenu">
+                              <li><a href="article_restaurant.html">RESTAURANTS</a></li>
+                              <li><a href="article_restaurant.html">BARS</a></li>
+                              <li><a href="article_restaurant.html">CLUBS</a></li>
+                              <li><a href="article_food.html">RECIPIES</a></li>
+                              <li><a href="category.html" class="view">View All</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                        <a href="article_restaurant.html">
+                          <div class="menu_block bar">
+                            <img src="img/bar.jpg" alt="">
+                            <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                            <p class="h9 fl">BARS</p>
+                            <div class="empty-sm-10 empty-xs-10"></div>
+                            <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+                          </div>
+                          </a>
+                        </div>
+                        <div class="col-md-3">
+                        <a href="article_restaurant.html">
+                          <div class="menu_block rest">
+                            <img src="img/restaurant.jpg" alt="">
+                            <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                            <p class="h9 fl">RESTAURANTS</p>
+                            <div class="empty-sm-10 empty-xs-10"></div>
+                            <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+                          </div>
+                          </a>
+                        </div>
+                        <div class="col-md-3">
+                        <a href="article_food.html">
+                          <div class="menu_block recipies">
+                            <img src="img/fish.jpg" alt="">
+                            <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                            <p class="h9 fl">RECIPIES</p>
+                            <div class="empty-sm-10 empty-xs-10"></div>
+                            <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+                          </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="empty-lg-50 empty-md-50 empty-sm-0 empty-xs-0"></div>
+                  </li>
+                </ul>
+            </li>
+            <li><a href="article_teathre.html">LIVING</a>
+            </li>
+            <li><a href="article.html">VACATION</a>
+            </li>
+            <li class="activeMenu"><a href="new_shop.html">SHOP</a>
+            </li>
+            <li><a href="subscriptions2.html">MAGAZINE</a>
+            </li>
+            <li><a href="advertise.html">ADVERTISING</a>
+            </li>
+          </ul>
+          <div class="footer_list">
+           <ul class="soc">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+               <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+    </header> 
+<!--  ==================       END HEADER    ==============           -->                                                                    
+<!--  ==================       START CONTENT    ==============           -->  
+     <div class="empty-lg-200 empty-md-200 empty-sm-50 empty-xs-30 hide_empty"></div>
+    <div class="empty-lg-100 empty-md-100 empty-sm-50 empty-xs-30"></div>                                                                                                                                  
+    <section class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-1 col-xs-6 col-none">
+          <div class="filtr"><a href="#" class="select">FILTR<i class="fa fa-angle-down"></i></a></div>
+        </div>       
+        <div class="center">
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+             <a href="#" class="select" onclick="return false" >CATEGORY<i class="fa fa-angle-down"></i></a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <a href="#" class="select" onclick="return false">BRAND<i class="fa fa-angle-down"></i></a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+          <a href="#" class="select" onclick="return false">DESIGNER<i class="fa fa-angle-down"></i></a>
+        </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+          <div class="buy_block nsh_buy_block">
+            <a href="#"><i class="fa fa-user-o"></i></a>
+            <a href="checkout.html">
+              <i class="fa fa-shopping-basket"></i>
+              <span>(<b>2</b>)</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+        <hr class="no_margin_hr">
+      </div>
+      <div class="filtr_block">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="filtr_section">
+            <a href="#" class="select">CATEGORY</a>
+              <ul class="filters">
+                <li><a href="#">T-shirts & Vests</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Hoodies & Sweatshirts</a></li>
+                <li><a href="#">Cardigans & Jumpers</a></li>
+                <li><a href="#">Blazers & Suits</a></li>
+                <li><a href="#">Jackets & Coats</a></li>
+                <li><a href="#">Basics</a></li>
+                <li><a href="#">Trousers</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">T-shirts & Vests</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Hoodies & Sweatshirts</a></li>
+                <li><a href="#">Cardigans & Jumpers</a></li>
+                <li><a href="#">Blazers & Suits</a></li>
+                <li><a href="#">Jackets & Coats</a></li>
+                <li><a href="#">Basics</a></li>
+                <li><a href="#">Trousers</a></li>
+                <li><a href="#">Jeans</a></li>
+                <li><a href="#">Shorts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="filtr_section">
+            <a href="#" class="select">BRAND</a>
+              <ul class="filters">
+                <li><a href="#">Pull&Bear</a></li>
+                <li><a href="#">Bershka</a></li>
+                <li><a href="#">Zara</a></li>
+                <li><a href="#">H&M</a></li>
+                <li><a href="#">Mohito</a></li>
+                <li><a href="#">New Looks</a></li>
+                <li><a href="#">Topman</a></li>
+                <li><a href="#">Topshop</a></li>
+                <li><a href="#">Quicksilver</a></li>
+                <li><a href="#">Perou</a></li>
+                <li><a href="#">Pull&Bear</a></li>
+                <li><a href="#">Bershka</a></li>
+                <li><a href="#">Zara</a></li>
+                <li><a href="#">H&M</a></li>
+                <li><a href="#">Mohito</a></li>
+                <li><a href="#">New Looks</a></li>
+                <li><a href="#">Topman</a></li>
+                <li><a href="#">Topshop</a></li>
+                <li><a href="#">Quicksilver</a></li>
+                <li><a href="#">Perou</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="filtr_section">
+            <a href="#" class="select">DESIGNER</a>
+              <ul class="filters">
+                <li><a href="#">All</a></li>
+                <li><a href="#">A.P.C.</a></li>
+                <li><a href="#">Acne Studio</a></li>
+                <li><a href="#">AG Jeans</a></li>
+                <li><a href="#">Alex Mill</a></li>
+                <li><a href="#">Alexander McQueen</a></li>
+                <li><a href="#">Alexander Wang</a></li>
+                <li><a href="#">Acne Studio</a></li>
+                <li><a href="#">AG Jeans</a></li>
+                <li><a href="#">Alex Mill</a></li>
+                <li><a href="#">All</a></li>
+                <li><a href="#">A.P.C.</a></li>
+                <li><a href="#">Acne Studio</a></li>
+                <li><a href="#">AG Jeans</a></li>
+                <li><a href="#">Alex Mill</a></li>
+                <li><a href="#">Alexander McQueen</a></li>
+                <li><a href="#">Alexander Wang</a></li>
+                <li><a href="#">Acne Studio</a></li>
+                <li><a href="#">AG Jeans</a></li>
+                <li><a href="#">Alex Mill</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="sizes_block">
+            <form action="" class="forma">
+              <div class="left">
+                <p class="H">SIZES</p>
+                <div class="empty-lg-30 empty-md-30 empty-sm-20 empty-xs-40"></div>                
+                 <input type="checkbox" name="one" value="one" id="one"><label for="one"> All</label><br>
+                  <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                  <input type="checkbox" name="two" value="two" id="two"><label for="two"> XXS</label><br>
+                  <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                  <input type="checkbox" name="three" value="three" id="three"><label for="three"> S</label><br>
+                  <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                  <input type="checkbox" name="four" value="four" id="four"><label for="four"> L</label><br>
+                  <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                  <input type="checkbox" name="five" value="five" id="five"><label for="five"> XXL</label><br>
+              <div class="empty-lg-65 empty-md-65 empty-sm-60 empty-xs-0"></div>
+              <a href="#" class="myBtn add_list width100"> 
+                        <p>CLEAR</p>
+                      </a>
+              </div>
+              <div class="right">
+                  <div class="empty-lg-80 empty-md-80 empty-sm-60 empty-xs-80"></div>
+                   <input type="checkbox" name="a1" value="one" id="a1"><label for="a1"> XS</label><br>
+                    <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                    <input type="checkbox" name="a2" value="two" id="a2"><label for="a2"> M</label><br>
+                    <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                    <input type="checkbox" name="a3" value="three" id="a3"><label for="a3"> XL</label><br>
+                    <div class="empty-md-15 empty-sm-10 empty-xs-10"></div>
+                    <input type="checkbox" name="a4" value="four" id="a4"><label for="a4"> XXXL</label><br>
+                
+                <div class="empty-lg-65 empty-md-65 empty-sm-60 empty-xs-0"></div>
+                <a href="#" class="myBtn add_to_bag width100">
+                        <p>APPLY</p>
+                      </a>
+              </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+        </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/shirt4.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><h1 class="h7">Black Ripstop Snapback Hat</h1></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+           <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/jacket_2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-12"></div>
+      </div>
+      <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/shirt5.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/shirt4.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/sweater2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/shirt6.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12"></div>
+      </div>
+      <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+             <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+              <a href="#"><img src="img/shirt7.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/shirt5.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt3.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt4.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12"></div>
+      </div>
+      <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+             <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+              <a href="#"><img src="img/jacket_2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/shirt7.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12"></div>
+      </div>
+      <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+             <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+              <a href="#"><img src="img/shirt4.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/sweater3.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/sweater.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12"></div>
+      </div>
+      <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+             <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+              <a href="#"><img src="img/t-shirt3.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/jacket_2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt5.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/sweater2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12"></div>
+      </div>
+      <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+      <div class="row">
+         <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+             <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+              <a href="#"><img src="img/shirt4.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <div class="thing_block">
+              <a href="#"><img src="img/jacket1.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+              <div class="thing_block">
+              <a href="#"><img src="img/t-shirt2.jpg" alt=""></a>
+              <div class="description">
+                <a href="#"><p class="h7">Black Ripstop Snapback Hat</p></a>
+                <p class="h9">Cotton-Blend Tech Fleece </p>
+              </div>
+           </div>
+            <div class="empty-lg-0 empty-md-0 empty-sm-0 empty-xs-40"></div>
+         </div>
+         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+      </div>
+       <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-0"></div>
+       <div class="row">
+          <div class="show_all">
+            <a href="#" class="show_more">
+                <p class="btn"><i class="fa fa-refresh"></i></p>
+            </a>
+            <p>SHOW ME MORE</p>
+          </div>  
+          </div>
+           <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-40"></div>
+          <div class="row">
+          <div class="col-lg-2 col-md-1 col-sm-1 col-xs-0"></div>
+          <div class="col-lg-8 col-md-10 col-sm-10 col-xs-12">
+            <div class="image_block bg_block_2">
+                <img class="resp-img" src="img/laptop.jpg" alt="">       
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-1 col-sm-1 col-xs-0"></div>  
+        </div>
+         <div class="empty-lg-70 empty-md-60 empty-sm-50 empty-xs-40"></div>
+          <div class="row">
+              <div class="join">
+                <p>NEWSLETTER <br> TO GET IN TOUCH</p>
+                <div class="form">
+                   <form action="email-action.php" method="POST">
+                      <input class="email" type="email" name="email" placeholder="Enter you e-mail" required><br>
+                      <div class="empty-lg-40 empty-md-30 empty-sm-25 empty-xs-10"></div> 
+                      <input class="submit" type="submit" value="JOIN">
+                   </form>
+                </div>
+               </div>
+            </div>
+            <div class="empty-lg-50 empty-md-50 empty-sm-25 empty-xs-10"></div> 
+    </div>
+    </section>  
+<!--  ==================       END CONTENT    ==============           -->
+
+<!--  ==================    POPUP WRAPPERS    ==============           --> 
+<div class="popup_wrapper">
+<!--  ===============   MENU LAYER   ==============  --> 
+  <div class="layer"></div>
+
+<!--  ===============   SEARCH WRAPPER   ==============  --> 
+  <div class="wrapper">  
+  <div class="container-fluid">
+    <div class="row">
+      <form action="">               
+      <div class="search_input">
+        <a class="search close fr">
+          <span></span>
+          <span></span>                 
+        </a> 
+        <p class="h5">Search</p>
+        <input type="search" placeholder="search"><a href="#" class="clear-input"><img src="img/x2.png" alt="" class="delete"></a> 
+      </div>
+    </form>
+    <div class="empty-lg-40 empty-md-40 empty-sm-30 empty-xs-20"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-1 col-md-1"></div>
+      <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <a href="article_restaurant.html">
+              <div class="menu_block bar">
+                <img src="img/bar.jpg" alt="">
+                <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                <p class="h9 fl">BARS</p>
+                <div class="empty-sm-10 empty-xs-10"></div>
+                <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <a href="article_restaurant.html">
+              <div class="menu_block rest">
+                <img src="img/restaurant.jpg" alt="">
+                <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                <p class="h9 fl">RESTAURANTS</p>
+                <div class="empty-sm-10 empty-xs-10"></div>
+                <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+             <a href="article_food.html">
+              <div class="menu_block recipies">
+                <img src="img/fish.jpg" alt="">
+                <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                <p class="h9 fl">RECIPIES</p>
+                <div class="empty-sm-10 empty-xs-10"></div>
+                <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <a href="article_restaurant.html">
+              <div class="menu_block bar">
+                <img src="img/bar.jpg" alt="">
+                <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                <p class="h9 fl">BARS</p>
+                <div class="empty-sm-10 empty-xs-10"></div>
+                <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <a href="article_restaurant.html">
+              <div class="menu_block rest">
+                <img src="img/restaurant.jpg" alt="">
+                <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                <p class="h9 fl">RESTAURANTS</p>
+                <div class="empty-sm-10 empty-xs-10"></div>
+                <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+             <a href="article_food.html">
+              <div class="menu_block recipies">
+                <img src="img/fish.jpg" alt="">
+                <div class="empty-lg-10 empty-md-10 empty-sm-10 empty-xs-0"></div>
+                <p class="h9 fl">RECIPIES</p>
+                <div class="empty-sm-10 empty-xs-10"></div>
+                <p>The Japanese Barely Eat Whale. So Why Do They Keep Whaling?</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-1"></div>
+    </div>
+  </div>
+  </div>
+<!--  ===============   END SEARCH WRAPPER   ==============  --> 
+</div>
+<!--  ==================       END POPUP WRAPPERS   ==============           -->
+
+<!--  ==================       START FOOTER    ==============           -->  
+ <footer class="footer">
+     <div class="container">
+       <div class="row">
+         <hr>
+         <div class="footer_list">
+             <ul class="soc">
+                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                 <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul> 
+             <ul class="down_menu">
+                 <li><a href="subscriptions2.html">MAGAZINE</a></li>
+                 <li><a href="contacts.html">CONTACTS</a></li>
+                 <li><a href="advertise.html">ADVERTISING</a></li>
+                 <li><a href="about.html">PRIVACY</a></li>
+                 <li><a href="terms.html">TERMS</a></li>
+              </ul> 
+              <a href="subscriptions1.html" class="subscribe"><p>SUBSCRIBE</p></a>
+         </div>
+       </div>
+       <img src="img/footer_im.jpg" alt="">
+     </div>
+    </footer>
+<!--  ==================       END FOOTER    ==============           -->
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">  
+<link href="css/style.css" rel="stylesheet" type="text/css"/>  
+               
+	<script>
+    function submitForm() {
+        $.ajax({
+            type: 'POST', url: 'email-action.php', data: $('#contact-form').serialize(), success: function (response) {
+                $('.contact-form').addClass('active');
+                document.contactform.reset();
+            }
+        });
+        return false;
+    }
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>	
